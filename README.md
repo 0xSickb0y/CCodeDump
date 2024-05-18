@@ -5,8 +5,6 @@ Also featuring a guessing [game](https://github.com/0xSickb0y/CCodeDump/blob/mai
 
 # Cheat Sheet
 
-## Basic Principles
-
 ### Structure of a C Program
 ```c
 #include <stdio.h> // Standard I/O library
@@ -174,8 +172,6 @@ fscanf(file, "%s", buffer);        // fscanf(): Reads formatted input
 
 fclose(file); // fclose(): Closes a file
 ```
-
-## Advanced Topics
 
 ### Preprocessor Directives
 ```c
