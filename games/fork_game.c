@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <string.h>
 #include <ctype.h>
+#include <string.h>
 #include <stdbool.h>
 
 char secret_word[] = "\x66\x6c\x6f\x70\x70\x61"; // not very hard isn't it?
