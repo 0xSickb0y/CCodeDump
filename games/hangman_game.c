@@ -8,7 +8,7 @@ char alphabet_array[26];
 int tries = 0;
 
 void banner() {
-    printf("Welcome to fork_game.c! Can you guess what the secret word is?\n");
+    printf("Welcome to hangman_game.c! Can you guess what the secret word is?\n");
     printf("max errors: 7\n\n");
     printf("⠈⢿⣿⣿⣿⣿⣿⣿⠄⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⣀⣀⣴⣼⣿⣿⣿⣿⣿⣿⡏\n");
     printf("⠀⠘⣷⢿⣿⣿⣿⣿⣤⣤⣶⣶⣶⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡗\n");
