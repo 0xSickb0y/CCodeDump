@@ -47,7 +47,7 @@ int already_tried(char letra) {
     return found;
 }
 
-void print_fork() {
+void print_hangman() {
     for (int i = 0; i < strlen(secret_word); i++) {
         if (already_tried(secret_word[i])) {
             printf("%c ", secret_word[i]);
@@ -85,7 +85,7 @@ int win() {
 int main() {
     banner();
     do {
-        print_fork();
+        print_hangman();
         input_guess();
         tries++;
     } while (!win() && !hanged());
